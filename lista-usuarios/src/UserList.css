@@ -1,0 +1,58 @@
+.user-list {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.user-list h2 {
+  text-align: center;
+  color: #333;
+}
+
+.user-list input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list th {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+}
+
+.user-list td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-list button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-list button:hover {
+  background-color: #e60000;
+}
+
+.user-list .empty {
+  text-align: center;
+  color: #777;
+  padding: 15px;
+}
